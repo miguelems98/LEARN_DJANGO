@@ -1,1 +1,5 @@
-hola, thhtuycu vyuvuyvyu <a href="{% url 'blog:home' %}">Blog Aqui</a>
+{% extends 'base.html' %}
+
+{% block content %}
+hola, thhtuycu vyuvuyvyu <a  class="text-blue-500" href="{% url 'blog:home' %}">Blog Aqui</a>
+{% endblock content %}
